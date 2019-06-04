@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alex's Lifesite</title>
+        <style>
+            body {
+                background: rgb(237, 219, 0);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 2em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 1000px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(215, 79, 0);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 25px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 300px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+           
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <h1>The Life of Alex</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+            <div class="sidebar">
+                <img src="http://3.bp.blogspot.com/-U6YNKM54nGw/Vptgy7Qi9lI/AAAAAAAAGao/-qlVB60Go3o/s1600/OPM-ep-11b.jpg" alt="Image" height="400" width="500">
+                </div>
+    
+                <div class="content">
+                <h1>Alex Wang</h1>
+                <p>Student at Benjamin Franklin High</p>
+                p.b {
+  font-style: italic;
+}
+                </div>
+           <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Video Games</li>
+                            <li>Anime</li>
+                            <li>Kpop</li>
+                        </ul>
+                    </section>
+            </main>
+        </div>
+    </body>
+</html>
